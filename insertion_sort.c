@@ -17,7 +17,6 @@ void inserion_sort(int arr[],int size){
      arr[j+1]=key;
     }
 }
-
 int main (){
     int arr[100];
     int size;
@@ -32,6 +31,5 @@ int main (){
             inserion_sort(arr,size); //Function to sort the array
             printf("After Sorting \n");
             display(arr,size);//printing the array After Sorting
-
     return 0;
 }
